@@ -95,10 +95,28 @@ Route::controller('user', 'UserController');
 # Filter for detect language
 Route::when('contact-us','detectLang');
 
+Route::get('inicio', function()
+{
+	// Return about us page
+	return View::make('site/welcome');
+});
+
+Route::get('sagrados-titulares', function()
+{
+	// Return about us page
+	return View::make('site/titulares');
+});
+
 Route::get('contacto', function()
 {
     // Return about us page
     return View::make('site/contact');
+});
+
+Route::get('aviso-legal', function()
+{
+	// Return about us page
+	return View::make('site/legal');
 });
 
 # Contact Us Static Page
