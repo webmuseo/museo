@@ -7,6 +7,7 @@
                         <div class="col-xs-12">
                             <img src="{{asset('template/images/design/slider1.jpg')}}" alt="Hermandad del museo" class="full-width-image">
                         </div><!-- .col-xs-12 -->
+                        
                     </div><!-- .row -->
                 </div>
                 <!-- End: Section 1: Top Banner -->

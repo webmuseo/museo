@@ -72,7 +72,7 @@
 		<link rel="shortcut icon" href="{{{ asset('assets/ico/favicon.png') }}}">-->
 	</head>
 
-	<body class="background-light twlsky-red twlsky-mixedcolours isolated-sections loader-bar">
+	<body class="background-light twlsky-red isolated-sections loader-bar">
 	 <!-- Page Outer Container -->
         <div class="outer-container clearfix">
 	<header class="clearfix">
