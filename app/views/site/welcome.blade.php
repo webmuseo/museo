@@ -45,7 +45,7 @@
                                                     <p>In mattis eleifend enim id pulvinar. Maecenas molestie condimentum purus, vel tempor lorem ultrices sit amet. Donec cursus mattis augue. Suspendisse eget tortor nec nunc adipiscing luctus. Nunc ac nunc id erat viverra sodales at sed quam. Nulla facilisi. Aliquam adipiscing non quam eu hendrerit. Integer mattis, ante a convallis porta, ante massa molestie lacus, at feugiat purus metus nec mauris.</p>
 
                                                     
-                                                    <p><a href="#" class="btn btn-outline-inverse btn-md">read more</a></p>
+                                                    <p><a href="#" class="btn btn-outline-inverse btn-md">Leer m&aacute;s</a></p>
                                                 </div>
                                             </div><!-- .media -->
                                         </div><!-- .item -->
@@ -62,7 +62,7 @@
                                                     <p>Eleifend enim id pulvinar. Maecenas molestie condimentum purus, vel tempor lorem ultrices sit amet. Donec cursus mattis augue. Suspendisse eget tortor nec nunc adipiscing luctus. Nunc ac nunc id erat viverra sodales at sed quam. Nulla facilisi. Aliquam adipiscing non quam eu hendrerit. Integer mattis, ante a convallis porta, ante massa molestie lacus, at feugiat purus metus nec mauris.</p>
 
                                                     
-                                                    <p><a href="#" class="btn btn-outline-inverse btn-md">read more</a></p>
+                                                    <p><a href="#" class="btn btn-outline-inverse btn-md">Leer m&aacute;s</a></p>
                                                 </div>
                                             </div><!-- .media -->
                                         </div><!-- .item -->
