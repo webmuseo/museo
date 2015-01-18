@@ -85,7 +85,7 @@
 
                     <div id="mobile-menu-icon" class="btn btn-outline-inverse visible-xs"><span class="glyphicon glyphicon-th"></span></div>
 
-                    <div id="search-container">
+                    <!--<div id="search-container">
                         <div id="search-icon"><i class="fa fa-search"></i></div>
                         <div id="search-input">
                             <form class="clearfix">
@@ -93,10 +93,10 @@
                                 <div id="search-close"><i class="fa fa-times"></i></div>
                             </form>
                         </div>
-                    </div><!-- #search-container -->
+                    </div>--><!-- #search-container -->
 
                     <ul id="main-menu">
-                        <li class="menu-item current-menu-ancestor"><a href="index.html">Inico</a>
+                        <li class="menu-item current-menu-ancestor"><a href="inicio">Inico</a>
                             <!--<ul class="sub-menu">
                                 <li class="menu-item current-menu-item"><a href="index.html">Layout 1</a></li>
                                 <li class="menu-item"><a href="index-2.html">Layout 2</a></li>
@@ -104,53 +104,51 @@
                         </li>
                         <li class="menu-item"><a href="about.html">Hermandad</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="about.html">With Sidebar</a></li>
-                                <li class="menu-item"><a href="about-fullwidth.html">Full Width</a></li>
-                                <li class="menu-item"><a href="about-gallery.html">Image Gallery</a></li>
-                                <li class="menu-item"><a href="about-gallery-masonry.html">Image Gallery Masonry</a></li>
+                                <li class="menu-item"><a href="sagrados-titulares">Sagrados Titulares</a></li>
+                                <li class="menu-item"><a href="junta-de-gobierno">Junta de Gobierno</a></li>
+                                <li class="menu-item"><a href="reglas-y-ordenanzas">Reglas y Ordenanzas</a></li>
+                                <li class="menu-item"><a href="historia">Historia</a></li>
+                                <li class="menu-item"><a href="servicios">Servicios</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a href="activities.html">Actividades</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="activities.html">Inline Text</a></li>
-                                <li class="menu-item"><a href="activities-textmask.html">Text Mask</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="services.html">Services</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="services.html">List</a></li>
-                                <li class="menu-item"><a href="services-grid.html">Icons Grid</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="news.html">News</a>
-                            <ul class="sub-menu">
+                        <li class="menu-item"><a href="noticias">Noticias</a>
+                            <!--<ul class="sub-menu">
                                 <li class="menu-item"><a href="news.html">With Images</a></li>
                                 <li class="menu-item"><a href="news-date.html">With Date</a></li>
+                            </ul>-->
+                        </li>
+                        <li class="menu-item"><a href="actividades">Actividades</a>
+                            <!--<ul class="sub-menu">
+                                <li class="menu-item"><a href="activities.html">Inline Text</a></li>
+                                <li class="menu-item"><a href="activities-textmask.html">Text Mask</a></li>
+                            </ul>-->
+                        </li>
+                        <li class="menu-item"><a href="juventud">Juventud</a>
+                            <!--<ul class="sub-menu">
+                                <li class="menu-item"><a href="services.html">List</a></li>
+                                <li class="menu-item"><a href="services-grid.html">Icons Grid</a></li>
+                            </ul>-->
+                        </li>
+                        <li class="menu-item"><a href="#">Multimedia</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="el-museo-en-imagenes">El Museo en im&aacute;genes</a></li>
+                                <li class="menu-item"><a href="el-museo-en-videos">El Museo en v&iacute;deos</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a href="blog.html">Blog</a>
+                        <li class="menu-item"><a href="#">Estaci&oacute;n de Penitencia</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="blog.html">Blog Layout 1</a></li>
-                                <li class="menu-item"><a href="blog-2.html">Blog Layout 2</a></li>
-                                <li class="menu-item"><a href="blog-3.html">Blog Layout 3</a></li>
-                                <li class="menu-item"><a href="blog-4.html">Blog Layout 4</a></li>
-                                <li class="menu-item"><a href="blog-item.html">Blog Item Layout 1</a></li>
-                                <li class="menu-item"><a href="blog-item-2.html">Blog Item Layout 2</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="#">Other Pages</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="features-slider.html">Features Slider</a></li>
-                                <li class="menu-item"><a href="generic-page-w-submenu.html">Page with submenu</a></li>
-                                <li class="menu-item"><a href="404.html">404 page</a></li>
-                                <li class="menu-item"><a href="ondemand.html">On Demand</a></li>
+                                <li class="menu-item"><a href="introduccion">Introducci&oacute;n</a></li>
+                                <li class="menu-item"><a href="el-cortejo">El Cortejo</a></li>
+                                <li class="menu-item"><a href="los-pasos">Los Pasos</a></li>
+                                <li class="menu-item"><a href="las-tunicas">Las T&uacute;nicas</a></li>
+                                <li class="menu-item"><a href="horarios-e-itinerarios">Horarios e itinerarios</a></li>
+                                <li class="menu-item"><a href="reserva-de-insignias">Reserva de Insignias</a></li>
                             </ul>
                         </li>
                         <li class="menu-item"><a href="{{{ URL::to('contacto') }}}">Contacto</a>
-                            <!--<ul class="sub-menu">
-                                <li class="menu-item"><a href="contact.html">Contact Layout 1</a></li>
-                                <li class="menu-item"><a href="contact-2.html">Contact Layout 2</a></li>
-                            </ul>-->
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="libro-de-celebraciones">Libro de Celebraciones</a></li>                                
+                            </ul>
                         </li>
                     </ul><!-- #main-menu -->
 
@@ -291,7 +289,11 @@
                                             <!-- list item -->
                                             <div class="item clearfix"><div class="item-content">
                                                 <div class="icon"><span class="glyphicon glyphicon-envelope"></span></div>
-                                                <h6 class="title">secretaria@hermandaddelmuseo.org</h6>
+                                                <h6 class="title">contacto@hermandaddelmuseo.org</h6>
+                                            </div></div>
+                                            
+                                            <div class="item clearfix"><div class="item-content">
+                                                <a href="aviso-legal"><h6 class="title">Aviso Legal</h6></a>
                                             </div></div>
                                         </div><!-- .col-xs-6 -->
 
@@ -319,7 +321,7 @@
             <div class="col-sm-6 beneath-footer-left">
                 <div class="text">
                     
-                    <br/><a href="mailto:10codesoft@gmail.com">&copy; {{{date('Y')}}} | 10Code</a>
+                    <br/><a style="color: white;" href="mailto:10codesoft@gmail.com">&copy; {{{date('Y')}}} | Developed by 10Code</a>
                 </div>
             </div>
 

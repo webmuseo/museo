@@ -74,7 +74,7 @@
                             </div><!-- .section-container -->
                             <!-- End: Main Page Content -->
                         </div><!-- .col-sm-9 -->
-						<div class="col-sm-3" style="padding: 20px 5px 0 5px">
+						<div class="col-sm-3" style="padding: 20px 5px 0 5px;">
 
                             <a class="twitter-timeline" href="https://twitter.com/Hdad_Museo" data-widget-id="556766552398528512">Tweets por el @Hdad_Museo.</a>
 							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	

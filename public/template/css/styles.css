@@ -1,1 +1,5 @@
 /* It is recommended to place all your extra/additional CSS rules here */
+
+body.w_bg_image {
+  background-color: #4C0000; 
+}
