@@ -95,6 +95,12 @@ Route::controller('user', 'UserController');
 # Filter for detect language
 Route::when('contact-us','detectLang');
 
+Route::get('contacto', function()
+{
+    // Return about us page
+    return View::make('site/contact');
+});
+
 # Contact Us Static Page
 Route::get('contact-us', function()
 {
@@ -103,4 +109,4 @@ Route::get('contact-us', function()
 });
 
 # Index Page - Last route, no matches
-Route::get('/', array('before' => 'detectLang','uses' => 'WelcomeController@getIndex'));
+Route::get('/', array('after' => 'detectLang','uses' => 'WelcomeController@getIndex'));

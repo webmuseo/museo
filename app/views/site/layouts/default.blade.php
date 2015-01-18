@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="auto">
 	<head>
 		<!-- Basic Page Needs
 		================================================== -->
@@ -25,7 +25,7 @@
 		<!-- CSS
 		================================================== -->
        <!-- favicon -->
-        <link rel="icon" type="image/png" href="{{{ asset('template/images/temp/favicon.png') }}}">
+        <link rel="icon" type="image/png" href="{{{ asset('template/images/temp/favicon.ico') }}}">
 
         <!-- Bootstrap CSS -->
         <link href="{{{ asset('bootstrap/css/bootstrap.min.css') }}}" rel="stylesheet">
@@ -96,13 +96,13 @@
                     </div><!-- #search-container -->
 
                     <ul id="main-menu">
-                        <li class="menu-item current-menu-ancestor"><a href="index.html">Home</a>
-                            <ul class="sub-menu">
+                        <li class="menu-item current-menu-ancestor"><a href="index.html">Inico</a>
+                            <!--<ul class="sub-menu">
                                 <li class="menu-item current-menu-item"><a href="index.html">Layout 1</a></li>
                                 <li class="menu-item"><a href="index-2.html">Layout 2</a></li>
-                            </ul>
+                            </ul>-->
                         </li>
-                        <li class="menu-item"><a href="about.html">About</a>
+                        <li class="menu-item"><a href="about.html">Hermandad</a>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="about.html">With Sidebar</a></li>
                                 <li class="menu-item"><a href="about-fullwidth.html">Full Width</a></li>
@@ -110,7 +110,7 @@
                                 <li class="menu-item"><a href="about-gallery-masonry.html">Image Gallery Masonry</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a href="activities.html">Activites</a>
+                        <li class="menu-item"><a href="activities.html">Actividades</a>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="activities.html">Inline Text</a></li>
                                 <li class="menu-item"><a href="activities-textmask.html">Text Mask</a></li>
@@ -146,11 +146,11 @@
                                 <li class="menu-item"><a href="ondemand.html">On Demand</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a href="contact.html">Contact</a>
-                            <ul class="sub-menu">
+                        <li class="menu-item"><a href="{{{ URL::to('contacto') }}}">Contacto</a>
+                            <!--<ul class="sub-menu">
                                 <li class="menu-item"><a href="contact.html">Contact Layout 1</a></li>
                                 <li class="menu-item"><a href="contact-2.html">Contact Layout 2</a></li>
-                            </ul>
+                            </ul>-->
                         </li>
                     </ul><!-- #main-menu -->
 
@@ -326,9 +326,10 @@
             <!-- right -->
             <div class="col-sm-6 beneath-footer-right">
                 <ul class="social-media-icons clearfix">
-                    <li><a href="#" target="_blank" title="Facebok"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/pages/Hermandad-del-Museo-Sevilla/424077367665366" target="_blank" title="Facebok"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://twitter.com/hdad_museo" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#" target="_blank" title="Google+"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" target="_blank" title="Google+"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
 
