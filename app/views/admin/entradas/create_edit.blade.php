@@ -21,7 +21,7 @@
 				<!-- entrada titulo -->
 				<div class="form-group {{{ $errors->has('titulo') ? 'error' : '' }}}">
                     <div class="col-md-12">
-                        <label class="control-label" for="titulo">entrada titulo</label>
+                        <label class="control-label" for="titulo">Titulo</label>
 						<input class="form-control" type="text" name="titulo" id="titulo" value="{{{ Input::old('titulo', isset($entrada) ? $entrada->titulo : null) }}}" />
 						{{ $errors->first('titulo', '<span class="help-block">:message</span>') }}
 					</div>
@@ -31,22 +31,30 @@
 				<!-- entrada subtitulo -->
 				<div class="form-group {{{ $errors->has('subtitulo') ? 'error' : '' }}}">
                     <div class="col-md-12">
-                        <label class="control-label" for="subtitulo">entrada subtitulo</label>
+                        <label class="control-label" for="subtitulo">Subtitulo</label>
 						<input class="form-control" type="text" name="subtitulo" id="subtitulo" value="{{{ Input::old('subtitulo', isset($entrada) ? $entrada->subtitulo : null) }}}" />
 						{{ $errors->first('subtitulo', '<span class="help-block">:message</span>') }}
 					</div>
 				</div>
 				<!-- ./ entrada titulo -->
-				
+				<!-- categoria -->
+				<div class="form-group {{{ $errors->has('categoria') ? 'error' : '' }}}">
+                    <div class="col-md-12">
+                        <label class="control-label" for="categoria">Categoria</label>
+						<input class="form-control" type="text" name="categoria" id="categoria" value="{{{ Input::old('categoria', isset($entrada) ? $entrada->categoria : null) }}}" />
+						{{ $errors->first('categoria', '<span class="help-block">:message</span>') }}
+					</div>
+				</div>
 				<!-- contenido -->
 				<div class="form-group {{{ $errors->has('contenido') ? 'has-error' : '' }}}">
 					<div class="col-md-12">
-                        <label class="control-label" for="contenido">Contenido</label>
+                        <label class="control-label" for="contenido">Contenio</label>
 						<textarea class="form-control full-width wysihtml5" name="contenido" value="contenido" rows="10">{{{ Input::old('contenido', isset($entrada) ? $entrada->contenido : null) }}}</textarea>
 						{{ $errors->first('contenido', '<span class="help-block">:message</span>') }}
 					</div>
 				</div>
 				<!-- ./ contenido -->
+				
 			</div>
 			<!-- ./ general tab -->
 
@@ -91,7 +99,7 @@
 	
 	      var removeButton = Dropzone.createElement('<a class="dz-remove">Remove file</a>');
 	      var _this = this;
-	
+		  file.name = new Date().getTime();
 	      removeButton.addEventListener("click", function(e) {
 	        e.preventDefault();
 	        e.stopPropagation();

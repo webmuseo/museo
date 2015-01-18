@@ -6,5 +6,6 @@ return array(
 	'comments'   => '# de Comentarios',
 	'created_at' => 'Creado el',
 	'entry_id' => 'Id de la entrada',
+	'category' => 'Categoria',
 
 );

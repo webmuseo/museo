@@ -33,6 +33,7 @@ Te his dolorem adversarium? Pri eu rebum viris, tation molestie id pri. Mel ei s
                 'user_id'    => $user_id,
                 'titulo'     => 'Lorem ipsum dolor sit amet',
                 'subtitulo'  => 'lorem-ipsum-dolor-sit-amet',
+                'categoria'  => 'noticias',
                 'contenido'  => $this->content,
                 'created_at' => new DateTime,
                 'updated_at' => new DateTime,
@@ -42,6 +43,7 @@ Te his dolorem adversarium? Pri eu rebum viris, tation molestie id pri. Mel ei s
                 'titulo'     => 'Vivendo suscipiantur vim te vix',
                 'subtitulo'  => 'vivendo-suscipiantur-vim-te-vix',
                 'contenido'  => $this->content,
+                'categoria'  => 'noticias',
                 'created_at' => new DateTime,
                 'updated_at' => new DateTime,
             ),
@@ -50,6 +52,7 @@ Te his dolorem adversarium? Pri eu rebum viris, tation molestie id pri. Mel ei s
                 'titulo'     => 'In iisque similique reprimique eum',
                 'subtitulo'  => 'in-iisque-similique-reprimique-eum',
                 'contenido'  => $this->content,
+                'categoria'  => 'noticias',
                 'created_at' => new DateTime,
                 'updated_at' => new DateTime,
             ))

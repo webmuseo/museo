@@ -25,6 +25,7 @@
 		<thead>
 			<tr>
 				<th class="col-md-4">{{{ Lang::get('admin/entradas/table.title') }}}</th>
+				<th class="col-md-2">{{{ Lang::get('admin/entradas/table.category') }}}</th>
 				<th class="col-md-2">{{{ Lang::get('admin/entradas/table.created_at') }}}</th>
 				<th class="col-md-2">{{{ Lang::get('table.actions') }}}</th>
 			</tr>

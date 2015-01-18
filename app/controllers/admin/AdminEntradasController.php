@@ -58,6 +58,7 @@ class AdminEntradasController extends AdminController{
 		$rules = array(
 				'titulo'   => 'required|min:3',
 				'contenido' => 'required|min:3',
+				'categoria' => 'required|min:3',
 				'subtitulo' => 'required'
 		);
 	
@@ -74,6 +75,7 @@ class AdminEntradasController extends AdminController{
 			$this->entrada->titulo            = Input::get('titulo');
 			$this->entrada->subtitulo         = Input::get('subtitulo');
 			$this->entrada->contenido         = Input::get('contenido');
+			$this->entrada->categoria         = Input::get('categoria');
 			$this->entrada->user_id			  = $user->id;
 	
 			// Was the entrada post created?

@@ -20,6 +20,7 @@ class CreateEntradasTable extends Migration {
 			$table->string('titulo');
 			$table->string('subtitulo');
 			$table->longtext('contenido');
+			$table->string('categoria');
 			$table->timestamps();
 			$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 		});

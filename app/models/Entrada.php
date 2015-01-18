@@ -20,6 +20,11 @@ class Entrada extends Eloquent {
 		return $this->titulo;
 	}
 	
+	public function categoria()
+	{
+		return $this->categoria;
+	}
+	
 	
 	/**
 	 * Devuelve el contenido de la entrada formateado
