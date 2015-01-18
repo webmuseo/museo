@@ -216,7 +216,7 @@
                             <div id="footer-affiliates" class="section-container clearfix">
 
                                 <a href="#" class="section-header footer-header">
-                                    <h5 class="text">Affiliates</h5>
+                                    <h5 class="text">Enlaces de inter&eacute;s</h5>
                                 </a><!-- .section-header -->
 
                                 <div class="section-content clearfix">
