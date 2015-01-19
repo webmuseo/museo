@@ -107,6 +107,25 @@ Route::get('sagrados-titulares', function()
 	return View::make('site/titulares');
 });
 
+Route::get('servicios', function()
+{
+	// Return about us page
+	return View::make('site/services');
+});
+
+Route::get('noticias', function()
+{
+	// Return about us page
+	return View::make('site/notices');
+});
+
+Route::get('juventud', function()
+{
+	// Return about us page
+	return View::make('site/juventud');
+});
+
+
 Route::get('contacto', function()
 {
     // Return about us page

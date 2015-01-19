@@ -78,7 +78,7 @@
 	<header class="clearfix">
 
                 <div class="logo">
-                    <a href="index.html"><img src="{{ asset('template/images/design/header.png')}}" alt="Hermandad Del Museo" id="logo_dark"></a>
+                    <a href="inicio"><img src="{{ asset('template/images/design/header.png')}}" alt="Hermandad Del Museo" id="logo_dark"></a>
                 </div><!-- .logo -->
 
                 <div id="main-menu-container" class="clearfix">
@@ -264,7 +264,7 @@
                             <!-- Contact Us -->
                             <div id="footer-contact-us" class="section-container clearfix">
 
-                                <a href="contact-2.html" class="section-header footer-header">
+                                <a href="contacto" class="section-header footer-header">
                                     <h5 class="text">Contacto</h5>
                                 </a><!-- .section-header -->
 
