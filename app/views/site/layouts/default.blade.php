@@ -6,7 +6,7 @@
 		<meta charset="utf-8" />
 		<title>
 			@section('title')
-			Museo
+			Hdad. del Museo
 			@show
 		</title>
 		@section('meta_keywords')
@@ -107,10 +107,37 @@
                                 <li class="menu-item"><a href="sagrados-titulares">Sagrados Titulares</a></li>
                                 <li class="menu-item"><a href="junta-de-gobierno">Junta de Gobierno</a></li>
                                 <li class="menu-item"><a href="reglas-y-ordenanzas">Reglas y Ordenanzas</a></li>
-                                <li class="menu-item"><a href="historia">Historia</a></li>
+                                <li class="menu-item"><a href="#">Historia</a>
+                                	<ul class="sub-menu">
+                                		<li class="menu-item"><a href="historia">Historia de la Hermandad</a>
+                                		<li class="menu-item"><a href="capilla">La Capilla</a>
+                                		<li class="menu-item"><a href="heraldica">La Her&aacute;ldica</a>
+                                		<li class="menu-item"><a href="medalla">La Medalla</a>
+                                		<li class="menu-item"><a href="medalla">Nuestra M&uacute;sica</a>
+                                	</ul>
+                                </li>
                                 <li class="menu-item"><a href="servicios">Servicios</a></li>
                             </ul>
                         </li>
+                        
+                        <li class="menu-item"><a href="">Diputaciones</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="juventud">Juventud</a></li>
+                                <li class="menu-item"><a href="services-grid.html">Icons Grid</a></li>
+                                
+                                <li class="menu-item"><a href="#">Estaci&oacute;n de Penitencia</a>
+		                            <ul class="sub-menu">
+		                                <li class="menu-item"><a href="introduccion">Introducci&oacute;n</a></li>
+		                                <li class="menu-item"><a href="el-cortejo">El Cortejo</a></li>
+		                                <li class="menu-item"><a href="los-pasos">Los Pasos</a></li>
+		                                <li class="menu-item"><a href="las-tunicas">Las T&uacute;nicas</a></li>
+		                                <li class="menu-item"><a href="horarios-e-itinerarios">Horarios e itinerarios</a></li>
+		                                <li class="menu-item"><a href="reserva-de-insignias">Reserva de Insignias</a></li>
+		                            </ul>
+                        		</li>
+                            </ul>
+                        </li>
+                        
                         <li class="menu-item"><a href="noticias">Noticias</a>
                             <!--<ul class="sub-menu">
                                 <li class="menu-item"><a href="news.html">With Images</a></li>
@@ -123,28 +150,14 @@
                                 <li class="menu-item"><a href="activities-textmask.html">Text Mask</a></li>
                             </ul>-->
                         </li>
-                        <li class="menu-item"><a href="juventud">Juventud</a>
-                            <!--<ul class="sub-menu">
-                                <li class="menu-item"><a href="services.html">List</a></li>
-                                <li class="menu-item"><a href="services-grid.html">Icons Grid</a></li>
-                            </ul>-->
-                        </li>
+                        
                         <li class="menu-item"><a href="#">Multimedia</a>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="el-museo-en-imagenes">El Museo en im&aacute;genes</a></li>
                                 <li class="menu-item"><a href="el-museo-en-videos">El Museo en v&iacute;deos</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a href="#">Estaci&oacute;n de Penitencia</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="introduccion">Introducci&oacute;n</a></li>
-                                <li class="menu-item"><a href="el-cortejo">El Cortejo</a></li>
-                                <li class="menu-item"><a href="los-pasos">Los Pasos</a></li>
-                                <li class="menu-item"><a href="las-tunicas">Las T&uacute;nicas</a></li>
-                                <li class="menu-item"><a href="horarios-e-itinerarios">Horarios e itinerarios</a></li>
-                                <li class="menu-item"><a href="reserva-de-insignias">Reserva de Insignias</a></li>
-                            </ul>
-                        </li>
+                        
                         <li class="menu-item"><a href="{{{ URL::to('contacto') }}}">Contacto</a>
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="libro-de-celebraciones">Libro de Celebraciones</a></li>                                
@@ -321,7 +334,7 @@
             <div class="col-sm-6 beneath-footer-left">
                 <div class="text">
                     
-                    <br/><a style="color: white;" href="mailto:10codesoft@gmail.com">&copy; {{{date('Y')}}} | Developed by 10Code</a>
+                    <br/><a style="color: white;" href="http://10code.es" target="_blank">&copy; {{{date('Y')}}} | Developed by 10Code</a>
                 </div>
             </div>
 
