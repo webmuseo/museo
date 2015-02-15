@@ -1,7 +1,7 @@
 @extends('site.layouts.content')
 {{-- Web site Title --}}
 @section('title')
-Sagrados Titulares
+Noticias
 @parent
 @stop
 

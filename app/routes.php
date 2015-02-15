@@ -125,6 +125,35 @@ Route::get('juventud', function()
 	return View::make('site/juventud');
 });
 
+Route::get('historia', function()
+{
+	// Return about us page
+	return View::make('site/historia');
+});
+
+Route::get('capilla', function()
+{
+	// Return about us page
+	return View::make('site/capilla');
+});
+
+Route::get('heraldica', function()
+{
+	// Return about us page
+	return View::make('site/heraldica');
+});
+
+Route::get('medalla', function()
+{
+	// Return about us page
+	return View::make('site/medalla');
+});
+
+Route::get('junta-de-gobierno', function()
+{
+	// Return about us page
+	return View::make('site/junta-de-gobierno');
+});
 
 Route::get('contacto', function()
 {
