@@ -54,7 +54,21 @@
 					</div>
 				</div>
 				<!-- ./ contenido -->
-				
+				<!-- Url -->
+				<div class="form-group {{{ $errors->has('urls') ? 'error' : '' }}}">
+	                <label class="col-md-2 control-label" for="roles">Urls</label>
+	                <div class="col-md-6">
+	                
+		                <select class="form-control" name="urls[]" id="urls[]" multiple>
+		                        @foreach ($urls as $url)
+									<option value="{{{ $url->id }}}">{{{ $url->id }}}</option>
+		                        @endforeach
+						</select>
+
+					
+	            	</div>
+				</div>
+				<!-- ./ groups -->
 			</div>
 			<!-- ./ general tab -->
 

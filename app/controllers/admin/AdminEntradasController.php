@@ -42,6 +42,7 @@ class AdminEntradasController extends AdminController{
 	{
 		// titulo
 		$title = Lang::get('admin/entradas/titulo.create_a_new_entry');
+		
 	
 		// Show the page
 		return View::make('admin/entradas/create_edit', compact('title'));
@@ -114,9 +115,9 @@ class AdminEntradasController extends AdminController{
 	{
 		// titulo
 		$title = Lang::get('admin/entradas/title.entry_update');
-	
+		$urls = $entrada->urls();
 		// Show the page
-		return View::make('admin/entradas/create_edit', compact('entrada', 'title'));
+		return View::make('admin/entradas/create_edit', compact('entrada', 'title','urls'));
 	}
 	
 	/**
@@ -217,7 +218,7 @@ class AdminEntradasController extends AdminController{
 	 */
 	public function getData()
 	{
-		$entradas = Entrada::select(array('entradas.id', 'entradas.titulo', 'entradas.created_at'));
+		$entradas = Entrada::select(array('entradas.id', 'entradas.titulo', 'entradas.categoria', 'entradas.created_at'));
 	
 		return Datatables::of($entradas)
 	

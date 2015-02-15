@@ -18,6 +18,7 @@ class CreateUrlsTable extends Migration {
 			$table->increments('id')->unsigned();
 			$table->integer('carpeta_id')->unsigned();
 			$table->string('url');
+			$table->boolean('local')->default(true);
 			$table->string('tipo');
 			$table->foreign('carpeta_id')->references('id')->on('carpetas');
 			

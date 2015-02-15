@@ -67,13 +67,9 @@ class Entrada extends Eloquent {
 	 *
 	 * @return Array(string)
 	 */
-	public function url()
+	public function urls()
 	{
-		$urls = Array();
-		foreach ($this->belongsToMany('Entrada','urls_entradas') as $url){
-			array_push($urls, Url::to($url->url));
-		}
-		return $urls;
+		return $this->belongsToMany('Url', 'urls_entradas', 'url_id','entrada_id');
 	}
 
 	/**

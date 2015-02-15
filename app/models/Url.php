@@ -9,7 +9,7 @@ class Url extends Eloquent {
 	 * Devuelve el url 
 	 *
 	 * @return string
-	 */
+	
 	public function url()
 	{
 		return $this->url;
@@ -24,6 +24,10 @@ class Url extends Eloquent {
 		return $this->tipo;
 	}
 	
+	public function local()
+	{
+		return $this->local;
+	}
 	
 	
 	/**
