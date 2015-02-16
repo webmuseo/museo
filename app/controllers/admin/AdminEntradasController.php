@@ -115,7 +115,7 @@ class AdminEntradasController extends AdminController{
 	{
 		// titulo
 		$title = Lang::get('admin/entradas/title.entry_update');
-		$urls = $entrada->urls();
+		$urls = $entrada->urls;
 		// Show the page
 		return View::make('admin/entradas/create_edit', compact('entrada', 'title','urls'));
 	}

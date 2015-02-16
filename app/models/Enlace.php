@@ -1,14 +1,11 @@
 <?php
-class Url extends Eloquent {
+class Enlace extends Eloquent {
 
-
-
-	
 	
 	/**
 	 * Devuelve el url 
 	 *
-	 * @return string
+	 * @return string*/
 	
 	public function url()
 	{
@@ -38,7 +35,7 @@ class Url extends Eloquent {
 	public function entradas()
 	{
 		$entradas = Array();
-		foreach ($this->belongsToMany('Url','urls_entradas') as $entrada){
+		foreach ($this->belongsToMany('Entrada','enlaces_entradas') as $entrada){
 			array_push($entradas, Url::to($entrada));
 		}
 		return $entradas;

@@ -97,8 +97,9 @@ Route::when('contact-us','detectLang');
 
 Route::get('inicio', function()
 {
+	$entradas = Entradas::all();
 	// Return about us page
-	return View::make('site/welcome');
+	return View::make('site/welcome',compact('entradas'));
 });
 
 Route::get('sagrados-titulares', function()

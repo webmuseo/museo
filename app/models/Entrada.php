@@ -69,7 +69,7 @@ class Entrada extends Eloquent {
 	 */
 	public function urls()
 	{
-		return $this->belongsToMany('Url', 'urls_entradas', 'url_id','entrada_id');
+		return $this->belongsToMany('Enlace', 'enlaces_entradas');
 	}
 
 	/**

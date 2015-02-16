@@ -61,7 +61,7 @@
 	                
 		                <select class="form-control" name="urls[]" id="urls[]" multiple>
 		                        @foreach ($urls as $url)
-									<option value="{{{ $url->id }}}">{{{ $url->id }}}</option>
+									<option value="{{{ $url->id }}}">{{{ $url->url }}}</option>
 		                        @endforeach
 						</select>
 

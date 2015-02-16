@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUrlsTable extends Migration {
+class CreateEnlacesTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,10 +12,11 @@ class CreateUrlsTable extends Migration {
 	public function up()
 	{
 		// Create the `Posts` table
-		Schema::create('urls', function($table)
+		Schema::create('enlaces', function($table)
 		{
             $table->engine = 'InnoDB';
 			$table->increments('id')->unsigned();
+			$table->string('nombre');
 			$table->integer('carpeta_id')->unsigned();
 			$table->string('url');
 			$table->boolean('local')->default(true);
@@ -24,14 +25,14 @@ class CreateUrlsTable extends Migration {
 			
 			
 		});
-		Schema::create('urls_entradas', function($table)
+		Schema::create('enlaces_entradas', function($table)
 		{
 			$table->engine = 'InnoDB';
 			$table->increments('id')->unsigned();
-			$table->integer('url_id')->unsigned();
+			$table->integer('enlace_id')->unsigned();
 			$table->integer('entrada_id')->unsigned();
-			$table->unique(array('url_id','entrada_id'));
-			$table->foreign('url_id')->references('id')->on('urls')->onDelete('cascade');
+			$table->unique(array('enlace_id','entrada_id'));
+			$table->foreign('enlace_id')->references('id')->on('enlaces')->onDelete('cascade');
 			$table->foreign('entrada_id')->references('id')->on('entradas')->onDelete('cascade');
 		});
 	}
@@ -44,8 +45,8 @@ class CreateUrlsTable extends Migration {
 	public function down()
 	{
 		// Delete the `Posts` table
-		Schema::drop('urls');
-		Schema::drop('urls_entradas');
+		Schema::drop('enlaces');
+		Schema::drop('enlaces_entradas');
 	}
 
 }
