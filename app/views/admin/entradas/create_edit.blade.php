@@ -61,7 +61,7 @@
 	                
 		                <select class="form-control" name="urls[]" id="urls[]" multiple>
 		                        @foreach ($urls as $url)
-									<option value="{{{ $url->id }}}">{{{ $url->url }}}</option>
+									<option value="{{{ $url->id }}}">{{{ $url->nombre }}}</option>
 		                        @endforeach
 						</select>
 
@@ -102,8 +102,16 @@
     </div>
 	</div>
 @stop
+@section('styles')
+<!-- 1 -->
+<link href="{{asset('assets/css/dropzone.css')}}" type="text/css" rel="stylesheet" />
+@stop
 {{-- Scripts --}}
 @section('scripts')
+
+ 
+	<script src="{{asset('assets/js/dropzone.js')}}"></script>
+	
 	<script type="text/javascript">
 	//myDropzone is the configuration for the element that has an id attribute
 	// with the value my-dropzone (or myDropzone)

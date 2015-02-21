@@ -3,6 +3,16 @@ class Enlace extends Eloquent {
 
 	
 	/**
+	 * Devuelve el nombre
+	 *
+	 * @return string*/
+	
+	public function nombre()
+	{
+		return $this->nombre;
+	}
+	
+	/**
 	 * Devuelve el url 
 	 *
 	 * @return string*/
